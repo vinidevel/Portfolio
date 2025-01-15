@@ -19,10 +19,6 @@
   .foto-preto-branco {
     filter: grayscale(100%); /* Deixa a imagem preto e branco */
     transition: filter 0.3s ease, box-shadow 0.3s ease; /* Transição suave */
-    width: 35rem; /* Garante responsividade */
-    max-width: 500px; /* Tamanho máximo da imagem */
-    display: block;
-    margin: auto;
   }
   
   /* Contêiner da imagem para o hover */
