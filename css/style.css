@@ -6,6 +6,7 @@
     --text-color: #ffffff;
     --bg-color-01: #1f242d;
     --bg-color-02: #323946;
+    --bg-color-03: #ffffff;
     --color-00: #0000001a;
 
     /* Extra */
@@ -110,6 +111,29 @@ header {
     color: var(--bg-color-02);
     box-shadow: 0 0 0.3rem var(--main-color);
 }
+
+.botao-luz-sol {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border: solid 1px var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 1.8rem 0.5rem;
+    transition: 0.5s ease;
+}
+
+.botao-luz-sol:hover {
+    background-color: var(--main-color);
+    color: var(--bg-color-02);
+    box-shadow: 0 0 0.3rem var(--main-color);
+}
+
+
 
 
 

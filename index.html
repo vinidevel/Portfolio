@@ -11,12 +11,15 @@
     <link rel="stylesheet" href="css/tooltips.css">
     <link rel="stylesheet" href="css/style-pc.css">
     <link rel="stylesheet" href="css/style-foto-about.css">
+    <link rel="stylesheet" href="css/btn-liga-deslig.css">
     <!-- Box Icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
 </head>
 
-<body>
+<body class="dark">
     <header>
         <a href="#" class="logo">Vinícius de Amorim</a>
 
@@ -24,6 +27,7 @@
             <a href="#home">Home</a>
             <a href="#services">Serviços</a>
             <a href="#about">Sobre</a>
+            <i style="color: aliceblue;" class="uil uil-moon toggle-btn botao-luz-sol"></i>
         </div>
 
         <div class="nav-responsive">
@@ -76,7 +80,7 @@
 
     <!-- service section -->
 
-    <section class="services" id="services">
+    <section class="services dark" id="services">
         <h2>Alguns dos <span>serviços prestados</span></h2>
 
         <div class="services-container">
@@ -116,7 +120,7 @@
             <div class="services-box">
                 <i class='bx bx-code-curly'></i>
                 <h3>Sistemas</h3>
-                <p>
+                <p >
                     Ofereço o desenvolvimento de sistemas sob medida para atender às demandas específicas de cada
                     negócio. Seja um sistema de gestão interna, automação de processos ou plataformas personalizadas,
                     cada solução é projetada para melhorar a eficiência operacional e facilitar a tomada de decisões
@@ -186,7 +190,7 @@
     <!-- service section -->
 
     <!-- service section -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio dark" id="portfolio">
         <h2>Alguns <span>Projetos</span></h2>
 
         <div class="portfolio-container">
@@ -195,9 +199,9 @@
                 <img src="img/alura.png" alt="Landing Page Alura">
 
                 <div class="portfolio-layer">
-                    <h4>Landing Page</h4>
+                    <h4 class="txt-portfolio">Landing Page</h4>
 
-                    <p>Este modelo de Landing Page apresenta os produtos e beneficios de uma barbearia fictícia, sua
+                    <p class="txt-portfolio">Este modelo de Landing Page apresenta os produtos e beneficios de uma barbearia fictícia, sua
                         localização, vídeo marketing e formulário de contato para atendimento. </p>
       
 
@@ -209,9 +213,9 @@
                 <img src="img/bistro.png" alt="Portfolio 2">
 
                 <div class="portfolio-layer">
-                    <h4>Cardápio Digital</h4>
+                    <h4 class="txt-portfolio">Cardápio Digital</h4>
 
-                    <p>Este é um cardápio digital onde são apresentados os produtos e preços de um estabelecimento comercial. 
+                    <p class="txt-portfolio">Este é um cardápio digital onde são apresentados os produtos e preços de um estabelecimento comercial. 
 
                         O usuário administrador poderá criar, editar e deletar os produtos. Um documento em PDF com a lista dos produtos também poderá ser baixado pelo usuário administrador.</p>
                 </div>
@@ -221,9 +225,9 @@
                 <img src="img/portfolio.png" alt="Portfolio 3">
 
                 <div class="portfolio-layer">
-                    <h4>Portfolio</h4>
+                    <h4 class="txt-portfolio">Portfolio</h4>
 
-                    <p>Neste projeto foi desenvolvido um portfolio básico personalizado de acordo com as necessidades da cliente. Foi utilizado HTML, CSS e JavaScript. A ideia foi criar um site que apresentasse os trabalhos realizados, serviços prestados e informações sobre o cliente. Formulários de contato com integração ao Discord também foram desenvolvidos.</p>
+                    <p class="txt-portfolio">Neste projeto foi desenvolvido um portfolio básico personalizado de acordo com as necessidades da cliente. Foi utilizado HTML, CSS e JavaScript. A ideia foi criar um site que apresentasse os trabalhos realizados, serviços prestados e informações sobre o cliente. Formulários de contato com integração ao Discord também foram desenvolvidos.</p>
 
                     <!-- <a href=""><i id="icones" class='bx bx-link-external'></i></a> -->
                 </div>
@@ -233,9 +237,9 @@
                 <img src="img/sistema-financas.png" alt="Portfolio 4">
 
                 <div class="portfolio-layer">
-                    <h4>Gestão Financeira Pessoal</h4>
+                    <h4 class="txt-portfolio">Gestão Financeira Pessoal</h4>
 
-                    <p>Sistema de gestão financeira pessoal, com controle de despesas, receitas e balanço financeiro desenvolvido com framework Laravel. Dashboards com gráficos e relatórios detalhados.</p>
+                    <p class="txt-portfolio">Sistema de gestão financeira pessoal, com controle de despesas, receitas e balanço financeiro desenvolvido com framework Laravel. Dashboards com gráficos e relatórios detalhados.</p>
 
                     <!-- <a href=""><i id="icones" class='bx bx-link-external'></i></a> -->
                 </div>
@@ -245,9 +249,9 @@
                 <img src="img/sistemas.png" alt="Portfolio 5">
 
                 <div class="portfolio-layer">
-                    <h4>Sistemas Personalizados</h4>
+                    <h4 class="txt-portfolio">Sistemas Personalizados</h4>
 
-                    <p>Sistemas desenvolvidos com framework Laravel, bootstrap e javascript para controle de estoque, inventário de dados, automação de processos, contratos e muito mais. Recursos completos para o desenvolvimento de soluções empresariais, com foco em eficiência e qualidade. *Imagem ilustrativa do projeto.</p>
+                    <p class="txt-portfolio">Sistemas desenvolvidos com framework Laravel, bootstrap e javascript para controle de estoque, inventário de dados, automação de processos, contratos e muito mais. Recursos completos para o desenvolvimento de soluções empresariais, com foco em eficiência e qualidade. *Imagem ilustrativa do projeto.</p>
 
                     <!-- <a href=""><i id="icones" class='bx bx-link-external'></i></a> -->
                 </div>
@@ -257,9 +261,9 @@
                 <img src="img/calendario.png" alt="Portfolio 6">
 
                 <div class="portfolio-layer">
-                    <h4>Calendário Dinâmico</h4>
+                    <h4 class="txt-portfolio">Calendário Dinâmico</h4>
 
-                    <p>Este calendário foi desenvolvido com framework Laravel, bootstrap e javascript para gerenciamento de eventos. Ele oferece uma interface simples e intuitiva para adicionar, editar e excluir eventos com facilidade.</p>
+                    <p class="txt-portfolio">Este calendário foi desenvolvido com framework Laravel, bootstrap e javascript para gerenciamento de eventos. Ele oferece uma interface simples e intuitiva para adicionar, editar e excluir eventos com facilidade.</p>
 
                     <a href=""><i id="icones" class='bx bx-link-external'></i></a>
                 </div>
@@ -315,11 +319,12 @@
     </section>
     <!-- about section -->
 
-    <footer>
+    <footer class="footer">
         <p>Copyright &copy; 2024 by Vinicius Cavalcanti. Todos os direitos reservados.</p>
     </footer>
 </body>
 <script src="js/js.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/btn-liga-delig.js" ></script>
 
 </html>
